@@ -24,7 +24,6 @@ entrypoints==0.3
 enum34==1.1.10
 Flask==1.1.2
 Flask-Compress==1.5.0
-functools32==3.2.3.post2
 future==0.18.2
 futures==3.3.0
 gunicorn==19.10.0
