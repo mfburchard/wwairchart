@@ -8,7 +8,7 @@ import plotly.graph_objs as go
 
 data = pd.read_csv('https://datamfburchaws.s3.us-east-2.amazonaws.com/airdata2.csv')
 
-app=dash.Dash()
+app = dash.Dash()
 
 server = app.server
 
