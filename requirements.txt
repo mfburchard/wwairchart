@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 attrs==19.3.0
 backports-abc==0.5
 backports.functools-lru-cache==1.6.1
@@ -86,3 +87,6 @@ Werkzeug==1.0.1
 widgetsnbextension==3.5.1
 win-unicode-console==0.5
 zipp==1.2.0
+=======
+
+>>>>>>> 1f90a8e8ff3778cdc423a468e915309ef3b33882
