@@ -6,7 +6,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 
-data = pd.read_csv('https://datamfburchaws.s3.us-east-2.amazonaws.com/airdata2.csv')
+data = pd.read_csv('https://datamfburchaws.s3.us-east-2.amazonaws.com/airdata_cities.csv')
 
 app = dash.Dash()
 
@@ -20,7 +20,6 @@ app.layout = html.Div([
                 go.Scatter(
                     x=data[data['City'] == i]['Date'],
                     y=data[data['City'] == i]['median'],
-                    #text=df[df['Customer_Name'] == i]['Profit'],
                     mode='markers',
                     opacity=0.7,
                     marker={
